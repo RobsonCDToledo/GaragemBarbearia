@@ -1,2 +1,1 @@
 FLASK_APP=garagembarbearia.py
-FLASK_ENV=development
