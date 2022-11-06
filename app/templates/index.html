@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<h2>Olá {{nome}}</h2>
+    <p>
+        Profissão: {{dados.profissao}}<br/>
+        Endereço: {{dados.endereco}}<br/>
+        Cidade: {{dados.cidade}}
+    </p>
+
+{% endblock %}
