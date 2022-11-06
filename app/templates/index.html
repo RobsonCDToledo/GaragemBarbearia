@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
 
 {% block conteudo %}
-<h2>Olá {{nome}}</h2>
-    <p>
-        <img src="{{url_for('static', filename='logo.png') }}">
+
+<img class="imglogomarca" src="{{url_for('static', filename='imagens/logo.png') }}"><br/>
+<h2>GARAGEM BARBEARIA</h2>
+    <p>              
+        Olá: {{nome}}<br/>
         Profissão: {{dados.profissao}}<br/>
         Endereço: {{dados.endereco}}<br/>
         Cidade: {{dados.cidade}}
