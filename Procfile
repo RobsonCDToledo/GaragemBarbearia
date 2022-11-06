@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT garagembarbearian:app
+web: gunicorn -b :$PORT garagembarbearia:app
